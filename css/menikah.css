@@ -49,7 +49,11 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
-
+@media (max-width: 599px) {
+  .hero {
+    background-attachment: scroll;
+  }
+}
 
 .hero .title {
   font-family: 'Rouge Script', sans-serif;

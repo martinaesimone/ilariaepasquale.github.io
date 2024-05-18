@@ -38,8 +38,10 @@ html {
 
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background-image: url(../image/background.jpg);
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)),
+  rgba(0, 0, 0, 0.55) url("../image/background.jpg") no-repeat;
+  background-position: center top;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -299,7 +301,7 @@ html {
   font-weight: 900;
   color: #996E6D;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   letter-spacing: 0px;
   padding-bottom: 60px;
 }
@@ -307,14 +309,14 @@ html {
 .nama-lengkap {
   font-family: 'Rouge Script', sans-serif;
   color: #996E6D;
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
-  line-height: 3.7rem;
+  line-height: 3.70rem;
 }
 
 .ampersand {
-font-size: 5rem;
+font-size: 4rem;
 font-family: 'Rouge Script', sans-serif;
 color: #996E6D;
 line-height: 5rem;

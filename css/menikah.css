@@ -153,6 +153,7 @@ html {
   padding: 80px 40px;
 }
 
+
 .main-content .section-dark.resume {
   height: 400px;
   padding-top: 60px;
@@ -284,6 +285,23 @@ html {
   }
 }
 
+@media (max-width: 370px) {
+  .main-content .regular-section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .main-content .section-dark {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .main-content .section-light {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 .main-content .section-color.pertanyaan {
   padding: 100px;
   background-color: #996E6D;
@@ -305,7 +323,7 @@ html {
   font-weight: 900;
   color: #996E6D;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 0px;
   padding-bottom: 60px;
 }
@@ -319,6 +337,9 @@ html {
   line-height: 3.70rem;
 }
 
+@media (max-width: 599px) {
+}
+
 .ampersand {
 font-size: 4rem;
 font-family: 'Rouge Script', sans-serif;
@@ -330,6 +351,13 @@ vertical-align: middle;
 
 .bodytext {
   font-size: 18px;
+}
+
+@media (max-width: 360px) {
+  #catullo {
+    font-size: 16px;
+    font-style: italic;
+  }
 }
 
 .waktu {
